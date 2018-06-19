@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="getMusic">Get more music</string>
+    <string name="skipb">Skip Backwards</string>
+    <string name="skipf">Skip forwards</string>
+    <string name="playPause">Play or pause</string>
+    <string name="album">My album</string>
+    <string name="titleHint">Title</string>
+    <string name="artistHint">Artist</string>
+    <string name="searchBox">Search name or artist</string>
+    <string name="findMusic">Find</string>
+</resources>
