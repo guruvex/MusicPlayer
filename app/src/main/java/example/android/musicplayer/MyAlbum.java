@@ -14,6 +14,7 @@ public class MyAlbum extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_album);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         /** building album list
          * this is a temp list.
          * this list will be replaced with a dynamic

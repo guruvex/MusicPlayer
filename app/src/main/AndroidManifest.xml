@@ -16,9 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyAlbum" android:label="@string/album"/>
-        <activity android:name=".GetMusic" android:label="@string/getMusic"/>
+        <activity
+            android:name=".MyAlbum"
+            android:label="@string/album"
+            android:parentActivityName=".MainActivity" />
 
+        <activity
+            android:name=".GetMusic"
+            android:label="@string/getMusic"
+            android:parentActivityName=".MainActivity" />
 
     </application>
 

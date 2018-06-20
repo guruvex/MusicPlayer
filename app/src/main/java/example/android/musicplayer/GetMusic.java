@@ -17,6 +17,8 @@ public class GetMusic extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_music);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         TextView findMusic = findViewById(R.id.findMusic);
 
         findMusic.setOnClickListener(new View.OnClickListener() {
